@@ -3,7 +3,9 @@ import java.util.Arrays;
 public class quick_sort {
 
     public static void main(String[] args) {
+
         int[] arr = new int[] {8,2,3,5,10,7,19,4,14};
+
         quickSort(arr, 0 ,arr.length-1);
 
         System.out.println(Arrays.toString(arr));
@@ -14,7 +16,6 @@ public class quick_sort {
         if(i == j) {
             return;
         }
-
         int tmp = nums[i];
         nums[i] = nums[j];
         nums[j] = tmp;
@@ -25,7 +26,6 @@ public class quick_sort {
         int middle;
         if(left < right) {
             middle = partition(nums, left, right);
-
 //          对分界值分隔的两个数组，继续递归该方法。
             quickSort(nums, left, middle-1);
             quickSort(nums, middle+1, right);

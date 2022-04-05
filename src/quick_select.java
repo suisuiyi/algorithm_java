@@ -1,8 +1,22 @@
+import java.util.Arrays;
+
 public class quick_select {
     public static void main(String[] args) {
-        int[] arr = {8,5,9,3,6,4,10,2,7};
-        int k = quickSelect(arr, 0, arr.length-1, 5);
-        System.out.println(k);
+//        int[] arr = {30,83,56,76,21,95};
+        int[] arr = {8,2,3,5,10,7,19,4,14};
+
+//      快速选择算法：从数组中找出排名第k位的元素，并输出。
+//      eg: 从数据中找出排名第2的元素。
+        int k = 2;
+//      int k = 3;
+//      int k = 1;
+
+        int result = quickSelect(arr, 0, arr.length-1, k);
+
+        System.out.println("排名第" + k +  "位的元素值为：" + result + "\n");
+
+        System.out.println("此时数组的内容为：" + Arrays.toString(arr
+        ));
     }
 
     public static void swap(int[] nums, int i, int j ) {
@@ -26,37 +40,34 @@ public class quick_select {
      */
 
     public static int quickSelect(int[] nums, int left, int right, int k) {
-        if (left > right) {
+        if(left > right) {
             return 0;
         }
 
-        int i = left; int j = right;
+        while (left < right) {
+            int privot = nums[left];
 
-
-        while (i < j) {
-
-            while(i < j && nums[j] > nums[left]) {
-                j--;
+            while (left < right && nums[right] >= privot) {
+                right--;
             }
 
+            nums[left] = nums[right];
 
-            while (i < j && nums[i] <= nums[right]) {
-                i++;
-            }
-            if (i < j) {
-                swap(nums, i, j);
+            while (left < right && nums[left] <= privot) {
+                left++;
             }
 
+            nums[right] = privot;
         }
-        swap(nums, left, i);
-        if(k == i - left + 1) {
-            return nums[i];
-        }
-        else if(k < i - left + 1) {
-            return quickSelect(nums, left, i-1, k);
-        }
-        else  {
-            return  quickSelect(nums, i+1, right, k-(i - left + 1));
+
+//      完成了第一轮比较，此时left和right相等，均指向第一个轴枢元素。即ind = left = right
+        int ind = left;
+        if(ind == k - 1) {
+            return nums[ind];
+        } else if (ind < k - 1) {
+            return quickSelect(nums, ind + 1, nums.length-1, k);
+        } else {
+            return  quickSelect(nums, 0, ind-1, k);
         }
     }
 
