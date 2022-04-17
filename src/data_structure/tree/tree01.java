@@ -7,7 +7,7 @@ import static java.util.Arrays.asList;
 import static java.util.Arrays.setAll;
 
 /*
-
+  --深度优先遍历
   借助栈来实现二叉树的前、中、后序遍历。
 
  */
