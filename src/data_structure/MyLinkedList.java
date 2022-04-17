@@ -28,7 +28,6 @@ public class MyLinkedList {
         myLinkedList.delete(1);
         myLinkedList.outPut();
 
-
     }
 
 //  实现链表的插入元素
