@@ -22,12 +22,20 @@ public class HuiWenNumber {
          * */
 
         int x = 121;
-        boolean result = isPalindrome(x);
-        System.out.println(result);
+        int y = 1;
+        int z = 21;
+        int w = 22;
+        System.out.println(isPalindrome(x));
+        System.out.println(isPalindrome(y));
+        System.out.println(isPalindrome(z));
+        System.out.println(isPalindrome(w));
 
     }
 
     public static boolean isPalindrome(int x) {
+        if(x < 0) {
+            return false;
+        }
         String str = String.valueOf(x);
         for(int i = 0; i < (str.length() + 1) / 2; i++) {
             if(str.charAt(i) != str.charAt(str.length() -i -1)) {
