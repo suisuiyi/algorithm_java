@@ -1,4 +1,4 @@
-package leetcode.day01;
+package leetcode.day02;
 
 public class HuiWenNumber {
     public static void main(String[] args) {
