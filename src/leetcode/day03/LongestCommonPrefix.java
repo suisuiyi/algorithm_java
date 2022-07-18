@@ -99,7 +99,6 @@ public class LongestCommonPrefix {
                 break;
             }
 
-
         }
         System.out.println(index);
         //全相等、部分相等、仅有一个相等
