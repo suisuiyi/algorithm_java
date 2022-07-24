@@ -39,6 +39,10 @@ public class strStr {
          *        可以得知当 j = b.length 的时候，就代表找到了子串，返回此时的i值
          *
          *
+         * 时间复杂度： O（n * m）
+         * 空间复杂度:  O (1)
+         *
+         *
          * */
         if(b.isEmpty()){
             return 0;
