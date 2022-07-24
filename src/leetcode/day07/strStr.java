@@ -5,6 +5,7 @@ import com.sun.deploy.util.StringUtils;
 public class strStr {
 
     public static void main(String[] args) {
+        //28. 实现 strStr()
         String haystack = "hello";
         String needle = "ll";
 //        System.out.println(strStr(haystack, needle));
