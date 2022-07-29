@@ -38,7 +38,7 @@ public class InorderTraversal {
         if (root == null) {
             return;
         }
-
+        // 中序遍历是先遍历左子树，然后根节点，然后是右子树
         inorder(root.left, res);
         res.add(root.val);
         inorder(root.right, res);
