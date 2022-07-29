@@ -11,6 +11,9 @@ public class InorderTraversalSelf {
         //递归的终止条件是遇到node为空
         //递归的时候，需要将每个值放置到List中
 
+        //时间复杂度：O(n)  所有节点都会被遍历一次
+        //空间复杂度：O(n)  树的深度（当仅有一个分支的时候，获得的是n）
+
         TreeNode root1 = new TreeNode(2);
         root1.left = null;
         TreeNode root2 = new TreeNode(3);

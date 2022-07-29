@@ -2,9 +2,7 @@ package leetcode.day10;
 
 import apple.laf.JRSUIUtils;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class InorderTraversal {
     public static void main(String[] args) {
@@ -20,7 +18,8 @@ public class InorderTraversal {
         root1.right = root2;
         root2.left = new TreeNode(3);
 
-        List<Integer> result =  inorderTraversal(root1);
+//        List<Integer> result =  inorderTraversal(root1);
+        List<Integer> result =  inorderTraversalByDieDai(root1);
 
         for(Integer i: result) {
             System.out.println(i);
@@ -42,5 +41,28 @@ public class InorderTraversal {
         inorder(root.left, res);
         res.add(root.val);
         inorder(root.right, res);
+    }
+
+    public static List<Integer>  inorderTraversalByDieDai(TreeNode root) {
+        //迭代思想:就是先遍历所有的左节点，然后将所有的值入栈
+        //遇到为空则代表最左的节点遍历完成
+        //出栈的时候记录数据元素
+        List<Integer> res = new ArrayList<Integer>();
+        Deque<TreeNode> stk = new LinkedList<TreeNode>();
+
+        while(root != null || !stk.isEmpty()) {
+            while (root != null) {
+                stk.push(root);
+                root = root.left;
+            }
+
+            root = stk.pop();
+            res.add(root.val);
+            root = root.right;
+
+        }
+
+        return res;
+
     }
 }
