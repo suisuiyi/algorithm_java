@@ -1,0 +1,13 @@
+
+\squid:UselessImportCheck"1Remove this unused import 'java.math.BigInteger'.(»Çâ€8Şí˜£0
+[
+squid:S106 "9Replace this use of System.out or System.err by a logger.(™àÁùÿÿÿÿ8Ğô‡¯£0
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ï¡©šûÿÿÿÿ8÷á®£0
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(¸šñÙüÿÿÿÿ8Á¢Ñ˜£0
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(Î±ä8Ğô‡¯£0
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(øÎ·×8ŠÎà®£0
+isquid:CommentedOutCodeLineD"<This block of commented-out lines of code should be removed.(¤“‡û8¡–¯£0

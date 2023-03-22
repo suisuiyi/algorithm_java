@@ -1,0 +1,18 @@
+
+usquid:S2293l"YReplace the type specification in this constructor call with the diamond operator ("<>").(üÍ°úúÿÿÿÿ
+Tsquid:S3878l"8Remove this array creation and simply pass the elements.(üÍ°úúÿÿÿÿ
+gsquid:CommentedOutCodeLinek"<This block of commented-out lines of code should be removed.(Ääº•ûÿÿÿÿ
+Œsquid:S1319$"uThe type of the "inputList" object should be an interface such as "List" rather than the implementation "LinkedList".(ïê½Ò
+T
+squid:S106C"9Replace this use of System.out or System.err by a logger.(¶úƒºûÿÿÿÿ
+T
+squid:S106S"9Replace this use of System.out or System.err by a logger.(¶úƒºûÿÿÿÿ
+T
+squid:S106d"9Replace this use of System.out or System.err by a logger.(¶úƒºûÿÿÿÿ
+O
+squid:S106p"9Replace this use of System.out or System.err by a logger.(¥ò²º
+T
+squid:S106t"9Replace this use of System.out or System.err by a logger.(úŒòøÿÿÿÿ
+O
+squid:S106x"9Replace this use of System.out or System.err by a logger.(‘ô¨¾
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(›ÿŸÅ

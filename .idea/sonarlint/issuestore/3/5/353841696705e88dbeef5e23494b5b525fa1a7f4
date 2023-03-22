@@ -1,0 +1,17 @@
+
+Esquid:S1481	"'Remove this unused "s2" local variable.(ŽŸÞ‰8íÖ¬á¥0
+Isquid:S1481"&Remove this unused "s" local variable.(³³²ºûÿÿÿÿ8¤Â«á¥0
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Œƒ‹ç
+Tsquid:S1854	"6Remove this useless assignment to local variable "s2".(ŽŸÞ‰8¤Â«á¥0
+[
+squid:S106%"9Replace this use of System.out or System.err by a logger.(µÏ…èùÿÿÿÿ8÷‡ðá¥0
+Ysquid:S1854"6Remove this useless assignment to local variable "s1".(×·Áýúÿÿÿÿ8¤Â«á¥0
+>squid:S2129	" Remove this "String" constructor(ŽŸÞ‰8¤Â«á¥0
+Jsquid:S1481"'Remove this unused "s1" local variable.(×·Áýúÿÿÿÿ8¤Â«á¥0
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‹Éÿ¼8§¬ñá¥0
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ö£õÝ8§¬ñá¥0
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ûý¤ûÿÿÿÿ8§¬ñá¥0
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ö”¬68§¬ñá¥0
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(×çê§8§¬ñá¥0
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Åˆ‰•ÿÿÿÿÿ8§¬ñá¥0
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Õè†–ýÿÿÿÿ8§¬ñá¥0

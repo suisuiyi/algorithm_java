@@ -1,0 +1,5 @@
+
+esquid:UselessImportCheck":Remove this unused import 'com.sun.tools.javac.util.List'.(Š£Óÿ8‡Èö¤0
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÉÈóùıÿÿÿÿ8û‰‚¤0
+Ssquid:S1191"5Use classes from the Java API instead of Sun classes.(Š£Óÿ8‡Èö¤0

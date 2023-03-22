@@ -1,0 +1,9 @@
+
+Bsquid:S1659."Declare "r" on a separate line.(Æ€şÿÿÿÿ8€ÄÚ¯£0
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(›êŞÂúÿÿÿÿ8Êİ¯¯£0
+]squid:S1854":Remove this useless assignment to local variable "result".(öÕô øÿÿÿÿ8…ÖĞÁ£0
+Bsquid:S1659."Declare "k" on a separate line.(Æ€şÿÿÿÿ8€ÄÚ¯£0
+Bsquid:S1659@"Declare "r" on a separate line.(Æ€şÿÿÿÿ8ÂÀÁ£0
+Bsquid:S1659@"Declare "k" on a separate line.(Æ€şÿÿÿÿ8ÆŸÁÁ£0
+Nsquid:S1481"+Remove this unused "result" local variable.(öÕô øÿÿÿÿ8…ÖĞÁ£0

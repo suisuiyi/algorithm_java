@@ -1,0 +1,15 @@
+
+bsquid:CommentedOutCodeLine<"<This block of commented-out lines of code should be removed.(œ˜Í€
+gsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(â­ äùÿÿÿÿ
+N
+squid:S106a"9Replace this use of System.out or System.err by a logger.(êí.
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(à‡ÇÊûÿÿÿÿ
+bsquid:CommentedOutCodeLine:"<This block of commented-out lines of code should be removed.(äãç—
+ž%squid:RedundantThrowsDeclarationCheckY"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(Î»ã…
+Lsquid:S1191"5Use classes from the Java API instead of Sun classes.(Ï¥¯ö
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(®ýáëûÿÿÿÿ
+`squid:UselessImportCheck"<Remove this unused import 'com.sun.deploy.util.StringUtils'.(Ï¥¯ö
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Äë¼”
+2squid:S3626L"Remove this redundant jump.(ÉŠ©ƒ
+bsquid:CommentedOutCodeLine&"<This block of commented-out lines of code should be removed.(Äë¼”

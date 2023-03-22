@@ -1,0 +1,6 @@
+
+V
+squid:S106!"9Replace this use of System.out or System.err by a logger.(ÎÒÔ8½¦£é¤0
+„squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(¾±¾‹úÿÿÿÿ8´ÑÄè¤0
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8ˆï é¤0

@@ -1,0 +1,8 @@
+
+Ssquid:S1854<"7Remove this useless assignment to local variable "sum".(±é¿ûÿÿÿÿ
+hsquid:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(É­–òúÿÿÿÿ
+T
+squid:S106	"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(±ÏÚ¥
+Dsquid:S1481<"(Remove this unused "sum" local variable.(±é¿ûÿÿÿÿ
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(öúõÔ
