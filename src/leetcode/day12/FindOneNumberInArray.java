@@ -1,4 +1,4 @@
-package playground;
+package leetcode.day12;
 
 public class FindOneNumberInArray {
     public static void main(String[] args) {
